@@ -1,0 +1,36 @@
+{
+  "name": "fitcenter-api",
+  "version": "1.0.0",
+  "description": "API for fitcenter app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin-benoit/fitcenter-api.git"
+  },
+  "author": "Benjamin BENOIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamin-benoit/fitcenter-api/issues"
+  },
+  "homepage": "https://github.com/benjamin-benoit/fitcenter-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}
